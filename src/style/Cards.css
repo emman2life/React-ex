@@ -1,0 +1,47 @@
+@media(min-width: 550px){
+    .grid{
+        display: grid;
+        grid-template-columns:repeat(5,1fr);
+        grid-auto-columns: minmax(auto,auto);
+        grid-column-gap: 24px;
+    }
+}
+
+.Card {
+    box-sizing: border-box;
+    margin: 0 auto 24px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: default;
+}
+.meta-data .left {
+    margin-right: 8px;
+}
+.meta-data {
+    display: flex;
+    padding: 0 8px;
+    flex-direction: row;
+}
+@media (min-width: 900px){
+.Card .meta-data {
+    padding: 0;
+}
+}
+.meta-data .channel-thumb{
+    border-radius: 500px;
+    width: 36px;
+    height: auto;
+}
+.meta-data .description, .meta-data .title {
+    font-size: 14px;
+}
+.meta-data .description {
+    margin-bottom: 4px;
+    color: grey;
+}
+.meta-data  .title{
+    display: block;
+    margin-bottom: 8px;
+}

@@ -1,0 +1,14 @@
+.videoPage video {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+.videoPage .channel-thumb {
+    width: 48px!important;
+}
+.meta-data .channel-thumb {
+    border-radius: 500px;
+    width: 36px;
+    height: auto;
+}

@@ -1,0 +1,7 @@
+.title-top{
+    display: flex;
+    align-items: left;
+    margin-bottom: 16px;
+    font-size: 20px;
+    letter-spacing: -.75px;
+}
